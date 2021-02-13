@@ -1,0 +1,57 @@
+*{
+    font-size: 15px;
+    margin: 10px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.search{
+    margin: 20px;
+}
+
+input[type=text] {
+    margin: 20px;
+    padding: 8px 16px;
+    border: none;
+    
+    border-bottom: 2px solid #000;
+    width: 20%;
+}
+
+input[type=text]:focus {
+    border: none;
+    background-color: #88d0fa77;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+.user a{
+    text-decoration: none;
+    color: #000;
+}
+
+.user, .notExist{
+    display: none;
+    text-align: center;
+}
+
+img{
+    height: 200px;
+}
+
+.info{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
